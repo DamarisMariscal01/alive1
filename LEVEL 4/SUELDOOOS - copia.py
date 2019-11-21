@@ -15,4 +15,4 @@ def sueldooos (sueldoMeses):
     sueldoAhorrado = ahorroMes * 12
     return sueldoAhorrado
 print ("Este es el dinero 1 que te ahorras en un año: " , sueldooos (325))
-print ("Este es el dinero 2 que te ahorras en un año: " , sueldooos (999))
+print ("Este es el dinero 2 q ue te ahorras en un año: " , sueldooos (999))

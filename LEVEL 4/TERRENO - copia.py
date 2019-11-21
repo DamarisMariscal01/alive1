@@ -1,5 +1,5 @@
 #Input
-"""a = int(input ("Dime la medida del lado A: "))
+a = int(input ("Dime la medida del lado A: "))
 b = int(input ("Dime la medida del lado B: "))
 c = int(input ("Dime la medida del lado C: "))
 
@@ -10,9 +10,9 @@ rectangulo = (b * c)
 terreno = rectangulo + triangulo
 
 print ("Esta es la medida de tu terreno: " , terreno)
-"""
+
 #Funciones
-def terreno (a,b,c):
+"""def terreno (a,b,c):
     actualizarA = a - c
     triangulo = (actualizarA * b) / 2
     rectangulo = (b * c)
@@ -20,3 +20,4 @@ def terreno (a,b,c):
     return terreno
 print ("Esta es la medida de tu terreno: " , terreno (5,10,7))
 print ("Esta es la medida de tu terreno: " , terreno (6,15,9))
+"""
